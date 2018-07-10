@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">Pizza Feedback</string>
+
+    <string name="fromEmail" translatable="false"></string>
+    <string name="fromEmailPassword" translatable="false"></string>
+    <string name="toEmail" translatable="false"></string>
+    <string name="hostEmail" translatable="false"></string>
+    <string name="device_id" translatable="false"></string>
+
+
+    <string name="loading_mess" translatable="false">Loading...</string>
+    <string name="invalid_location_1" translatable="false">Detected location </string>
+
+    <string name="invalid_location_2" translatable="false"> is an invalid branch. Please select city from the given list.</string>
+    <string name="invalid_location" translatable="false">Invalid location.</string>
+    <string name="conn_err" translatable="false">Please check internet connection</string>
+
+
+    <string-array name="branchList" translatable="false">
+        <item>Mumbai</item>
+        <item>Surat</item>
+        <item>Ahmedabad</item>
+        <item>Delhi</item>
+        <item>Mira Bhayandar</item>
+    </string-array>
+
+    <string-array name="questionList" translatable="false">
+        <item>Was the restaurant clean?</item>
+        <item>Was the service hospitable and friendly?</item>
+        <item>Did you receive what you ordered?</item>
+        <item>Was the restaurant well maintained?</item>
+        <item>Was the food to your liking?</item>
+        <item>Were you served speedily?</item>
+        <item>Did you feel that you got value for your money?</item>
+        <item>How likely are you to visit XYZ Pizzas again in the near future?</item>
+    </string-array>
+
+
+    <string name="title_activity_get_location" translatable="false">Get Location</string>
+
+    <string name="content_authority" translatable="false">com.example.hirensamtani.pizzafeedback</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appwidget_text" translatable="false">Feedback Count For Today</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+    <string name="order_id_hint" translatable="false">Enter Order ID</string>
+    <string name="re_order_id_hint" translatable="false">Re-Enter Order ID</string>
+    <string name="next_btn_txt" translatable="false">Next</string>
+    <string name="branch_loc_hint" translatable="false">Choose branch location</string>
+
+
+    <string name="cont_desc_fab_loc" translatable="false">Tap to use GPS</string>
+    <string name="cont_desc_rating_bar" translatable="false">Tap to give rating</string>
+    <string name="cont_desc_fb_card" translatable="false">Swipe left to rate one out of five. Swipe right to rate five out of five.</string>
+    <string name="email_sub" translatable="false">Feedback received for Order ID: </string>
+    <string name="email_mess" translatable="false">Feedback given by customer: </string>
+    <string name="gps_intent_title" translatable="false">GPS not found</string>
+    <string name="gps_intent_mess" translatable="false">GPS service disabled. Enable the same?</string>
+    <string name="gps_intent_positive" translatable="false">Yes</string>
+    <string name="gps_intent_negative" translatable="false">No</string>
+
+    <string name="validation_order_id" translatable="false">Please enter Order ID.</string>
+    <string name="validation_order_id_mismatch" translatable="false">Entered Order IDs do not match.</string>
+    <string name="validation_fill_feedback" translatable="false">Please fill in all questions for feedback.</string>
+    <string name="feedback_success" translatable="false">Feedback inserted successfully.</string>
+    <string name="feedback_exist" translatable="false">Feedback already given</string>
+</resources>
